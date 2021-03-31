@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание №2</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+  </head>
+  <body>
+    <main>
+      <form>
+        <label for="name">Имя</label>
+        <input type="text" name="name" id="name" required>
+        <span class="name none error"></span>
+        <label for="surname">Фамилия</label>
+        <input type="text" name="surname" id="surname" required>
+        <span class="surname none error"></span>
+        <label for="age">Возраст</label>
+        <input type="text" name="age" id="age" required>
+        <span class="age none error"></span>
+        <div class="buttons">
+          <button type="button" id="save">Сохранить</button>
+          <button type="button" id="unload" class="unload">Выгрузить</button>
+        </div>
+        <p class="success none"></p>
+      </form>
+    </main>
+    <footer>
+      <p>Тестовое задание №2 для</p>
+      <img src="img/icon-nutnet.svg" alt="Nutnet-logo">
+      <p>2021</p>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/save.js"></script>
+    <script src="js/unload.js"></script>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  color: rgb(80, 80, 80);
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+}
+
+form {
+  width: 250px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 3px;
+  font-size: 15px;
+}
+
+input {
+  display: block;
+  width: 250px;
+  height: 28px;
+  padding-left: 7px;
+  border: 1px solid darkgrey;
+  border-radius: 3px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.buttons {
+  margin-top: 5px;
+  text-align: center;
+}
+
+button {
+  margin: 18px 5px 5px;
+  padding: 8px 16px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(100, 138, 102);
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: grey;
+}
+
+.unload {
+  background-color: rgb(100, 130, 143);
+}
+
+.success {
+  position: absolute;
+  width: 250px;
+  font-size: 15px;
+  text-align: center;
+  color: green;
+}
+
+.none {
+  display: none;
+}
+
+.error {
+  position: absolute;
+  font-size: 11px;
+  color: red;
+}
+
+.results {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: darkgreen;
+}
+
+.results:active {
+  color: grey;
+}
+
+.no-results {
+  color: red;
+}
+
+footer {
+  position: relative;
+  font-size: 14px;
+  text-align: center;
+  background-color: #343131;
+  color: white;
+  border-top: 2px solid lightgrey;
+}
